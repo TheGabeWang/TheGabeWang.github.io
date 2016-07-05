@@ -181,3 +181,20 @@ h6, .h6 {
 .blog-archive-title {
     margin-bottom: 50px;
 }
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.panel-cover {
+  display: block;
+  z-index: 900;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  background: url(../images/Desert.jpg) top left no-repeat #666666; 
+  filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+  -moz-background-size:100%;
+  background-size:100%;}
