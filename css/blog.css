@@ -191,10 +191,9 @@ h6, .h6 {
 }
 
 .panel-cover {
-  z-index: 900;
   width: 100%;
   max-width: 1199px;
   height: 100%;
-  max-height: 430px;
-  background: url(../images/ED.png) top no-repeat #666666;
+  max-height: 230px;
+  background: url(../images/ED.png) top center no-repeat #666666;
   background-size: cover; }
