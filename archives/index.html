@@ -1,3 +1,4 @@
+
 <html>
 
 <!-- Head tag -->
@@ -79,73 +80,14 @@
 
             <!-- Main Content -->
             <div class="col-sm-8 blog-main">
-                
+                <!% site.posts.each(function(item){ %>
+    <!%- partial('_partial/article-excerpt', {item: item}) %>
+<!% }); %>
+
+<!%- partial('_partial/pagination') %>
 
 
-   <h2 class="blog-archive-title">Archives</h2>
 
-
-
-<div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2016/07/01/bigbai/">
-            bigbai
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        2016-07-01
-        
-            by gg
-        
-    </p>
-
-</div>
-
-<div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2016/07/01/hello-world/">
-            Hello World
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        2016-07-01
-        
-    </p>
-
-</div>
-
-<div class="blog-post">
-
-    <!-- Title -->
-    <h2 class="blog-post-title-archive">
-        <a href="/2016/07/04/sssss/">
-            sssss
-        </a>
-    </h2>
-
-    <!-- Date and Author -->
-    <p class="blog-post-meta">
-        2016-07-04
-        
-    </p>
-
-</div>
-
-
-<nav>
-    <ul class="pager">
-        
-        
-    </ul>
-</nav>
             </div>
 
         </div>
