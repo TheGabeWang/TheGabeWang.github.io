@@ -10,10 +10,15 @@ body{
 
 @media (min-width: 900px) {
     .container {
-		width: 1280px;
-		max-width: none;
+		max-width: 1440px;
     }
 }
+
+.blog-head-pic{
+	padding-bottom:50%;
+}
+
+
 
 
 /*
@@ -24,20 +29,22 @@ body{
     -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
     box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);*/
 	width: 98%;
-    margin: 10px auto;
+    /*margin: 10px auto;
     padding: 10px 0px;
     border-top-style: solid;
     border-top-color: #0183e5;
-    border-top-width: 2px;
+    border-top-width: 2px;*/
     border-bottom-style: solid;
     border-bottom-color: #0183e5;
     border-bottom-width: 2px;
 	background-color: transparent;
+
 }
 
 .blog-navbar {
     background-color: transparent;
     border-color: transparent;
+	height: 50%;
 }
 
 .icon-bar {
@@ -48,13 +55,37 @@ body{
 	background-color: #0183e5;
 }
 
+.nav-bar{
+	margin-bottom: 1px;
+}
 .nav-font-size{
 	font-size: 20px;
 }
 
+.nav li { 
+    list-style: none; 
+    display: table; 
+} 
+.nav ul{
+	text-align: center;
+}
 
 
 .fltrt {
     float: right;
     margin-left: 8px;
 }
+
+.panel-cover {
+  display: block;
+  position: inherit;
+  z-index: 900;
+  min-width: 40%;
+  max-width: 100%;
+  min-height: 40%;
+  max-height: 100%;
+  background: url(../images/ed.jpg) top left no-repeat #666666;
+  filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+  -moz-background-size:100% 100%;  
+  background-size:100% 100%;  
+ }
