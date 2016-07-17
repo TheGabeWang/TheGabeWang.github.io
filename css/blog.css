@@ -11,8 +11,8 @@ body{
 @media (min-width: 900px) {
 
 	.container {
-		width:1028px;
-		height: auto;
+		width:1440px;
+		height: 900px;
 		max-width:100%;
 
     }
@@ -34,6 +34,7 @@ body{
 	z-index:0;
 }
 .pic{
+	background-color: #0183e5;
 	position: relative;
 	width:100%;
 	height:auto;
@@ -43,7 +44,7 @@ body{
 .head-menu{
 	position: absolute;
 	width:100%;
-	z-index:1;
+	z-index:2;
 }
 
 .blog-head{
@@ -53,10 +54,6 @@ body{
 	height: auto;
 }
 
-.home-item{
-	width:100%;
-	height:auto;
-}
 
 
 
@@ -137,6 +134,38 @@ body{
  }
  
 .test{
-	 background-color: #FFFAF0;
-	 z-index:1;
+	 background-color: transparent;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 padding-left:50px;
+	 padding-right:50px;
  }
+ .welcome{
+	display: block;
+	position: relative;
+	/*min-width: 40%;
+	max-width: 100%;
+	min-height: 40%;
+	max-height: 100%;*/
+	background: url(../images/welcom.jpg) top no-repeat #666666;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:100% 100%;  
+	background-size:100% 100%;  
+ }
+ 
+.cover_pic{
+	left: 0px; top: 0px; position: absolute; overflow: hidden; z-index: -999998; margin: 0px; padding: 0px; height: 100%; width: 100%;
+}
+
+#cover {
+  height: 250px;
+  background: #f9f9f9;
+  text-align: center;
+  center: fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
