@@ -89,30 +89,38 @@
 					Hi, welcome to the Big Bai site. I am a computer R&D engineer.
 					Here, I want to share my happy things with you and also make some records of my working
 					I hope you can find what you want here.
-				</div>
+</div>
+
+
+<!% site.posts.each(function(item){ %>
+    <!%- partial('_partial/article-excerpt', {item: item}) %>
+<!% }); %>
+
+<!%- partial('_partial/pagination') %>
+
+
+	
 			</div>
 		
-	
-	
-	
-	
-	
-	
-	
-	
+		
+		
+	    
+		
+		
+		<!-- Footer -->
+		<footer class="blog-footer">
+    <p>Designed by the Big Bai.    Adapted to <a href="https://hexo.io/">Hexo</a>.   </p>
+    <p><a href="#">Back to top</a></p>
+</footer>
+
+		<!-- After footer scripts -->
+		
 	</div>
 	
+	 
 	
 	
 	
-	
-    
-			
-			
-			
- 
-
-
 	<script>
 		$('.div01').anystretch("/images/home_blk.jpg");
 	</script>	
