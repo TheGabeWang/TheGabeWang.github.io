@@ -134,15 +134,16 @@ body{
  }
  
 .test{
-	font-size: 1.5em;
+	font-size: 1.4em;
     position: absolute;
     background-color: #8e8e8e;
     background-color: rgba(0,0,0,0.5);
     z-index: 1;
-    left: 40%;
-    top: 70%;
+    left: 35%;
+    top: 67%;
     padding-right: 2px;
 	color: grey;
+	text-align: justify;
  }
 
  
