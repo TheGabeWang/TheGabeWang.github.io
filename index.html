@@ -48,7 +48,8 @@
 		ss=document.getElementById('home_pic');
 		//alert(w);
 		//ss.style.width=w+"px";
-		ss.style.height=h+"px";
+		//ss.style.height=h+"px";
+		h=h+"px";
 	}
 	</script>
     
@@ -88,7 +89,13 @@
 		</div>
 		
 		
-			<div id="home_pic" class="div01">
+			<script type="text/javascript">
+				$(function(){
+					$("#Home_pic").height($(window).height());
+				}
+				);
+			</script>
+			<div class="div01" id="Home_pic">
 				<div class="test">
 					<h>Hi, welcome to the Big Bai site. I am a computer R&D engineer.</h>
 					<h>Here, I want to share my happy things with you and also make some records of my working</h>
