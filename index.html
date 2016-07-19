@@ -39,18 +39,13 @@
 	
 	<title>The Big Bai's Page</title>
 	
-	<script language="javascript">
-	var ss;
-	window.onload=function()
-	{
-		//var w=document.documentElement.clientWidth ;//可见区域宽度
-		var h=document.documentElement.clientHeight;//可见区域高度
-		ss=document.getElementById('home_pic');
-		//alert(w);
-		//ss.style.width=w+"px";
-		//ss.style.height=h+"px";
-		h=h+"px";
-	}
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#Home_pic").height($(window).height());
+		});
+		$(window).resize(function(){
+			$("#Home_pic").height($(window).height());			
+		});
 	</script>
     
 </head>
@@ -90,10 +85,14 @@
 		
 		
 			<script type="text/javascript">
-				$(function(){
+				$(document).ready(function(){
 					$("#Home_pic").height($(window).height());
-				}
-				);
+				});
+				$(window).resize(function(){
+						$("#Home_pic").height($(window).height());
+						
+				});
+
 			</script>
 			<div class="div01" id="Home_pic">
 				<div class="test">
