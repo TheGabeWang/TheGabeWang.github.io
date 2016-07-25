@@ -27,6 +27,8 @@ body{
 	position:relative;
 }
 
+
+/*blog layout*/
 .blog-head-pic{
 	position: relative;
 	width:100%;
@@ -105,13 +107,6 @@ body{
 .nav ul{
 	text-align: center;
 }
-
-
-.fltrt {
-    float: right;
-    margin-left: 8px;
-}
-
 .panel-cover {
   display: block;
   position: relative;
@@ -125,13 +120,6 @@ body{
   background-size:100% 100%;  
  }
  
- .pos-rela{
-	 position: relative;
- }
- 
- .pos-ab{
-	 position: absolute;
- }
  
 .test{
 	font-size: 1.4em;
@@ -147,6 +135,60 @@ body{
  }
 
  
+/*archive*/
+
+.blog-archive-title {
+	margin-top: 0px;
+    margin-bottom: 50px;
+    color: azure;
+    padding-top: 20px;
+	padding-left: 20px;
+}
+
+.archive-h{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.archive-meta{
+	padding-left: 30px;
+}
+.archive-list{
+	float: left;
+	width: 20%;
+	min-width: 150px;
+}
+
+.blog-body{
+    background-color: rgba(0,0,0,0.5);
+	color: azure;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 60px;
+	padding-left:20px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+
+.blog-post-title-archive {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+/*foot*/ 
  .blog-footer {
     padding: 5px 0;
     color: #999;
@@ -154,6 +196,6 @@ body{
     background-color: #f9f9f9;
 	background-color: rgba(0,0,0,0.5);
 }
- 
+
 
 
