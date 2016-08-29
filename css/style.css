@@ -11,6 +11,7 @@
  body {
     font-family:'Open Sans', sans-serif;
     color: #85939b;
+	background-color: #808080;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family:'Open Sans', sans-serif;
@@ -103,7 +104,7 @@ code {
     border-radius: 2px;
 }
 footer {
-    background: #fff;
+    background: #101010;
     padding:40px;
 }
 footer p {
@@ -141,9 +142,11 @@ footer .social a i{
     height: 100%;
     left: 0;
     font-family:'Raleway', sans-serif;
+	background-color: #101010;
 }
 #menu .navbar-toggle {
     margin-top: 11px;
+	border-color: #b8b8b8;
 }
 #menu .navbar-brand {
     padding-top: 10px;
@@ -164,9 +167,9 @@ footer .social a i{
     margin-left: -10px;
 }
 #menu .navbar-default .navbar-nav>li>a {
-    color: #232a2f;
-    font-size: 13px;
-    font-weight: 300;
+    color: #b8b8b8;
+    font-size: 1.0em;
+    font-weight: bold;
     letter-spacing:1.5px;
     text-transform: uppercase;
     padding-left: 30px;
