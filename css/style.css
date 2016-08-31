@@ -207,7 +207,7 @@ footer .social a i{
     margin-left: 220px;
 }
 #container section {
-    padding: 60px;
+    padding: 30px;
 }
 #container section {
     background: #f7f8f9;
@@ -1609,8 +1609,8 @@ background-color: #f9f9f9;
 }	
 
 .blog-post {
-    margin-bottom: 60px;
-	padding-left:20px;
+    margin-bottom: 40px;
+	padding-left:0px;
 }
 
 
@@ -1643,3 +1643,11 @@ float: right;
 margin-left; 1em;
 }
 
+@media (min-width: 992px)
+.col-lft {
+    width: 70%;
+}
+@media (min-width: 992px)
+.col-rgt {
+    width: 30%;
+}
