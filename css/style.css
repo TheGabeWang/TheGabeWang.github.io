@@ -1,9 +1,10 @@
 
 /*
     [ IMPORT RESOURCES ]
-*/
- @import url(http://fonts.useso.com/css?family=Raleway:200,300,400,500);
+	@import url(cc
  @import url(http://fonts.useso.com/css?family=Open+Sans:100,300,700,800);
+*/
+ 
 
  
  
@@ -12,16 +13,19 @@ html{-webkit-text-size-adjust:none;}
     [ TYPHOGRAPY ]
 */
  body {
-    font-family:'Open Sans', Microsoft YaHei;
+    /*font-family:'Open Sans', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     color: #b8b8b8;
 	background-color: #808080;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', Microsoft YaHei;
+    /*font-family:'Open Sans', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     /*color: #232a2f;*/
 }
 h3, h4, h5 {
-    font-family:'Raleway', Microsoft YaHei;
+    /*font-family:'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     font-weight: 200;
     margin-bottom: 30px;
 }
@@ -45,7 +49,8 @@ iframe{
     font-size: 40px;
 }
 .header-content h3 {
-    font-family:'Raleway', Microsoft YaHei;
+    /*font-family:'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     font-weight: 200;
     text-transform: capitalize;
     font-size: 24px;
@@ -144,7 +149,8 @@ footer .social a i{
     background: #fff;
     height: 100%;
     left: 0;
-    font-family:'Raleway', Microsoft YaHei;
+    /*font-family:'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
 	background-color: #101010;
 }
 #menu .navbar-toggle {
@@ -350,7 +356,8 @@ footer .social a i{
     text-align: center;
 }
 .home .slide-text h2 {
-    font-family:'Raleway', Microsoft YaHei;
+    /*font-family:'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 56px;
@@ -553,7 +560,8 @@ footer .social a i{
 }
 .portfolio-item a:hover > .project-hover span {
     padding: 15px 0;
-    font-family:'Raleway', Microsoft YaHei;
+    /*font-family:'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
 }
 .project-hover b {
     color: rgba(255, 255, 255, 0.0);
@@ -798,7 +806,8 @@ footer .social a i{
 }
 #primary .pagination li a {
     width: 35px;
-    font-family:'Open Sans', Microsoft YaHei;
+    /*font-family:'Open Sans', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     font-size: 16px;
     color: #85939b;
     height: 35px;
@@ -868,7 +877,8 @@ footer .social a i{
     line-height: 50px;
     font-weight: 300;
     font-size: 35px;
-    font-family:'Raleway', Microsoft YaHei;
+    /*font-family:'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
 }
 .post .post-title h1 a {
     color: #b8b8b8;
@@ -1041,7 +1051,8 @@ footer .social a i{
     font-size: 17px;
 }
 .widget .widget-title {
-    font-family: 'Raleway', Microsoft YaHei;
+    /*font-family: 'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     font-weight: bold;
     color: #AE8D73;
     font-size: 18px;
@@ -1064,7 +1075,7 @@ footer .social a i{
         padding:0;
     }
     .post .post-title h1 {
-        font-size: 20px;
+        font-size: 25px;
         line-height: 27px;
         margin-bottom: 15px;
         margin-top: 10px;
@@ -1291,7 +1302,8 @@ footer .social a i{
     }
 }
 .nav-tabs > li > a {
-    font-family:'Raleway', Microsoft YaHei;
+    /*font-family:'Raleway', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     font-size: 16px;
     color: inherit;
     background: #e5e8eb;
@@ -1509,7 +1521,8 @@ form .form-control:focus, form textarea:focus {
 }
 .pagination li a {
     width: 55px;
-    font-family:'Open Sans', Microsoft YaHei;
+    /*font-family:'Open Sans', Microsoft YaHei;*/
+	font-family: Microsoft YaHei;
     font-size: 16px;
     color: #85939b;
     height: 55px;
@@ -1615,23 +1628,18 @@ background-color: #f9f9f9;
 
 
 /*toc*/
-.toc-article
-background #eee{
-border: 1px solid #bbb;
-border-radius: 10px;
-margin: 1.5em 0 0.3em 1.5em;
-padding: 1.2em 1em 0 1em;
-max-width: 28%;
-
+.toc-article{
+    border: 1px solid #303030;
+    padding: 1.2em 1em 0 1em;
+	max-width: 350px;
 }
-.toc-title{
+/*.toc-title{
 font-size: 120%;
 }
 
 #toc{
 line-height: 1em;
 font-size: 0.9em;
-float: right;
 }
 .toc{
 	padding: 0;
@@ -1641,7 +1649,7 @@ float: right;
 
 .toc-child{ 
 margin-left; 1em;
-}
+}*/
 
 @media (min-width: 992px)
 .col-lft {
