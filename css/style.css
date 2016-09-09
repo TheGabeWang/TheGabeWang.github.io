@@ -1624,6 +1624,9 @@ background-color: #f9f9f9;
 }
 
 
+
+
+
 /*toc*/
 .toc-article{
     border: 1px solid #303030;
@@ -1634,29 +1637,22 @@ background-color: #f9f9f9;
 	font-size: bold;
 	color: #b8b8b8;
 }
-/*.toc-title{
-font-size: 120%;
-}
 
-#toc{
-line-height: 1em;
-font-size: 0.9em;
+.toc-title{
+	color: #AE8D73;
+	font-size: larger
 }
 .toc{
 	padding: 0;
 	margin: 1em;
-	line-height: 1.8em;
-	list-style-type: none;}
-
-.toc-child{ 
-margin-left; 1em;
-}*/
-
-@media (min-width: 992px)
-.col-lft {
-    width: 70%;
+	line-height:1.8em;
 }
-@media (min-width: 992px)
-.col-rgt {
-    width: 30%;
+.toc-link{
+	color: #337ab7;
 }
+
+
+
+
+
+
