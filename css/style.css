@@ -13,14 +13,14 @@ html{-webkit-text-size-adjust:none;}
     [ TYPHOGRAPY ]
 */
  body {
-    /*font-family:'Open Sans', Microsoft YaHei;*/
-	font-family: Microsoft YaHei;
+    font-family:'Open Sans', Microsoft YaHei;
+	/*font-family: Microsoft YaHei;*/
     color: #b8b8b8;
 	background-color: #808080;
 }
 h1, h2, h3, h4, h5, h6 {
-    /*font-family:'Open Sans', Microsoft YaHei;*/
-	font-family: Microsoft YaHei;
+    font-family:'Open Sans', Microsoft YaHei;
+	/*font-family: Microsoft YaHei;*/
     /*color: #232a2f;*/
 }
 h3, h4, h5 {
@@ -806,8 +806,8 @@ footer .social a i{
 }
 #primary .pagination li a {
     width: 35px;
-    /*font-family:'Open Sans', Microsoft YaHei;*/
-	font-family: Microsoft YaHei;
+    font-family:'Open Sans', Microsoft YaHei;
+	/*font-family: Microsoft YaHei;*/
     font-size: 16px;
     color: #85939b;
     height: 35px;
@@ -1521,8 +1521,8 @@ form .form-control:focus, form textarea:focus {
 }
 .pagination li a {
     width: 55px;
-    /*font-family:'Open Sans', Microsoft YaHei;*/
-	font-family: Microsoft YaHei;
+    font-family:'Open Sans', Microsoft YaHei;
+	/*font-family: Microsoft YaHei;*/
     font-size: 16px;
     color: #85939b;
     height: 55px;
@@ -1630,8 +1630,12 @@ background-color: #f9f9f9;
 /*toc*/
 .toc-article{
     border: 1px solid #303030;
-    padding: 1.2em 1em 0 1em;
+    padding: 1.2em 1em 1em 1em;
 	max-width: 350px;
+}
+.article-full-color{
+	font-weight: bold;
+	color: #b8b8b8;
 }
 /*.toc-title{
 font-size: 120%;
