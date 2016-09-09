@@ -10,19 +10,19 @@ html{-webkit-text-size-adjust:none;}
     [ TYPHOGRAPY ]
 */
  body {
-    font-family:'Arial', Open Sans, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Open Sans, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     color: #b8b8b8;
 	background-color: #808080;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Arial', Open Sans, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Open Sans, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     /*color: #232a2f;*/
 }
 h3, h4, h5 {
-    font-family:'Arial', Raleway, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Raleway, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     font-weight: 200;
     margin-bottom: 30px;
 }
@@ -46,8 +46,8 @@ iframe{
     font-size: 40px;
 }
 .header-content h3 {
-    font-family:'Arial', Raleway, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Raleway, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     font-weight: 200;
     text-transform: capitalize;
     font-size: 24px;
@@ -146,8 +146,8 @@ footer .social a i{
     background: #fff;
     height: 100%;
     left: 0;
-    font-family:'Arial', Raleway, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Raleway, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
 	background-color: #101010;
 }
 #menu .navbar-toggle {
@@ -353,8 +353,8 @@ footer .social a i{
     text-align: center;
 }
 .home .slide-text h2 {
-    font-family:'Arial', Raleway, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Raleway, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     font-weight: 300;
     text-transform: uppercase;
     font-size: 56px;
@@ -557,8 +557,8 @@ footer .social a i{
 }
 .portfolio-item a:hover > .project-hover span {
     padding: 15px 0;
-    font-family:'Arial', Raleway, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Raleway, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
 }
 .project-hover b {
     color: rgba(255, 255, 255, 0.0);
@@ -803,8 +803,8 @@ footer .social a i{
 }
 #primary .pagination li a {
     width: 35px;
-    font-family:'Arial', Open Sans, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Open Sans, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     font-size: 16px;
     color: #85939b;
     height: 35px;
@@ -874,8 +874,8 @@ footer .social a i{
     line-height: 50px;
     font-weight: 300;
     font-size: 35px;
-    font-family:'Arial', Raleway, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Raleway, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
 }
 .post .post-title h1 a {
     color: #b8b8b8;
@@ -1048,8 +1048,8 @@ footer .social a i{
     font-size: 17px;
 }
 .widget .widget-title {
-    /*font-family: 'Arial', Raleway, sans-serif;*/
-	font-family: sans-serif;
+    /*font-family: 'Arial', Raleway, Microsoft Yahei;*/
+	font-family: Microsoft Yahei;
     font-weight: bold;
     color: #AE8D73;
     font-size: 18px;
@@ -1299,8 +1299,8 @@ footer .social a i{
     }
 }
 .nav-tabs > li > a {
-    font-family:'Arial', Raleway, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Raleway, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     font-size: 16px;
     color: inherit;
     background: #e5e8eb;
@@ -1518,8 +1518,8 @@ form .form-control:focus, form textarea:focus {
 }
 .pagination li a {
     width: 55px;
-    font-family:'Arial', Open Sans, sans-serif;
-	/*font-family: sans-serif;*/
+    font-family:'Arial', Open Sans, Microsoft Yahei;
+	/*font-family: Microsoft Yahei;*/
     font-size: 16px;
     color: #85939b;
     height: 55px;
