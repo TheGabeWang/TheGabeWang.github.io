@@ -1625,7 +1625,10 @@ background-color: #f9f9f9;
 
 
 
-
+.article-full-color{
+	font-size: bold;
+	color: #e8c7a4;
+}
 
 /*toc*/
 .toc-article{
@@ -1633,10 +1636,7 @@ background-color: #f9f9f9;
     padding: 1.2em 1em 1em 1em;
 	max-width: 350px;
 }
-.article-full-color{
-	font-size: bold;
-	color: #b8b8b8;
-}
+
 
 .toc-title{
 	color: #AE8D73;
