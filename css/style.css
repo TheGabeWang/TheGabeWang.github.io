@@ -1651,6 +1651,14 @@ background-color: #f9f9f9;
 	color: #337ab7;
 }
 
+@media(min-width: 992px){
+	.about-col-1{
+		width: 60%;
+	}
+	.about-col-2{
+		width: 40%;
+	}
+}
 
 
 
