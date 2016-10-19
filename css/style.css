@@ -1661,7 +1661,39 @@ background-color: #f9f9f9;
 	}
 }
 
+#page-nav{
+	overflow: hidden;
+	margin-top: 20px;
+	max-width: 40%;
+}
 
+#page-nav  page-number{
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+#page-nav .prev {
 
+    border-radius: 10px;
+    padding: 3px 5px;
+    margin-right: 5px;
+    outline: 0;
+    font-weight: bolder;
+    height: 30px;
+    border: 1px solid;
+}
+#page-nav .next {
+
+	border-radius: 10px;
+    padding: 3px 5px;
+    margin-right: 5px;
+    outline: 0;
+    font-weight: bolder;
+    height: 30px;
+    border: 1px solid;
+}
+#page-nav a {
+  display: inline-block;
+  padding: 0.5em 1em;
+}
 
 
